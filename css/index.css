@@ -1,0 +1,161 @@
+.banner .swiper-pagination .swiper-pagination-bullet {
+    margin: 0 .04rem;
+}
+
+.content h3 {
+    font-size: .44rem;
+    line-height: .44rem;
+    color: #222222;
+    text-align: center;
+}
+
+.content .container {
+    padding: 0 .2rem;
+}
+
+.content-1 .container {
+    padding-top: .6rem;
+}
+
+.content-1 .navs-hd ul li span {
+    font-size: .28rem;
+    color: #333333;
+}
+
+.content-1 .navs-hd ul {
+    display: flex;
+    justify-items: flex-start;
+}
+
+.content-1 .navs-hd ul li {
+    width: 33.33%;
+    text-align: center;
+}
+
+.content-1 .navs-hd ul li .pic {
+    width: 1.14rem;
+    height: 1.14rem;
+    margin: auto;
+}
+
+.content-1 .navs-hd ul li span {
+    display: block;
+    padding-top: .22rem;
+}
+
+.content-1 .navs-bd {
+    margin-top: .28rem;
+}
+
+.content-1 .navs-bd ul li {
+    padding: .18rem .24rem .54rem .24rem;
+    background: #eeeeee;
+    position: relative;
+    display: none;
+}
+
+.content-1 .navs-bd ul li:first-child {
+    display: block;
+}
+
+.content-1 .navs-bd ul li span {
+    font-size: .24rem;
+    color: #666666;
+    line-height: .36rem;
+}
+
+.content-1 .navs-bd ul li a {
+    font-size: .24rem;
+    color: #0081b9;
+    position: absolute;
+    bottom: .18rem;
+    right: .24rem;
+}
+
+.content-2 .container {
+    padding-top: 1rem;
+}
+
+.content-2 .news-tab ul {
+    display: flex;
+    padding-top: .22rem;
+}
+
+.content-2 .news-tab ul li {
+    width: 33.33%;
+    text-align: center;
+}
+
+.content-2 .news-tab ul li span {
+    display: inline-block;
+    font-size: .32rem;
+    line-height: .84rem;
+    color: #333333;
+}
+
+.content-2 .news-tab ul li.on span {
+    font-weight: bold;
+    color: #0081b9;
+    border-bottom: .03rem solid #0081b9;
+}
+
+
+.content-2 .news-item.gsxw ul {
+    padding: .15rem 0;
+}
+
+.content-2 .news-item.gsxw li a {
+    display: block;
+    font-size: .3rem;
+    line-height: .6rem;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content-2 .news-item.gsxw .first {
+    padding: .33rem 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.content-2 .news-item.gsxw .first .pic {
+    width: 3.71rem;
+    height: 2.04rem;
+}
+
+.content-2 .news-item .more {
+    width: 3.20rem;
+    height: .70rem;
+    margin: auto;
+    text-align: center;
+    line-height: .7rem;
+    background-color: #ffffff;
+    border: solid 1px #e5e5e5;
+}
+
+.content-2 .news-item .more a {
+    font-size: .28rem;
+    color: #666666;
+}
+
+.content-2 .news-item.jydt ul li {
+    padding: .25rem 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.content-2 .news-item.jydt ul li .time {
+    width: 1.22rem;
+    height: 1.22rem;
+    background: #f5f5f5;
+    text-align: center;
+}
+.content-2 .news-item.jydt ul li .time .day{
+    font-size: .4rem;
+    display: block;
+    color: #333333;
+}
+.content-2 .news-item.jydt ul li .time .month{
+    font-size: .22rem;
+    color: #999999;
+}
