@@ -21,7 +21,11 @@
 </head>
 <body>
 <div class="header">
-    <div class="logo"></div>
+    <div class="logo">
+        <h1>
+            <a href="index.html">上扶教育</a>
+        </h1>
+    </div>
     <div class="tel">
         <span>课程资源服务平台领导者</span>
         <div>
@@ -280,11 +284,31 @@
             <h3>在快乐中学习，在学习中收获成长</h3>
             <div class="tabs">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <img src="images/index/study01_p.png" alt="">
+                        <span></span>
+                        <p>动手能力</p>
+                    </li>
+                    <li>
+                        <img src="images/index/study02_p.png" alt="">
+                        <span></span>
+                        <p>专注力</p>
+                    </li>
+                    <li>
+                        <img src="images/index/study03_p.png" alt="">
+                        <span></span>
+                        <p>艺术素养</p>
+                    </li>
+                    <li>
+                        <img src="images/index/study04_p.png" alt="">
+                        <span></span>
+                        <p>团队协作</p>
+                    </li>
+                    <li>
+                        <img src="images/index/study05_p.png" alt="">
+                        <span></span>
+                        <p>自信加持</p>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -295,10 +319,44 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="pic"></div>
-                        <div class="con"></div>
+                        <div class="pic">
+                            <img src="images/index/lunbo1.jpg" alt="">
+                        </div>
+                        <div class="con">城市木艺</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pic">
+                            <img src="images/index/lunbo2.jpg" alt="">
+                        </div>
+                        <div class="con">创意手工</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pic">
+                            <img src="images/index/lunbo3.jpg" alt="">
+                        </div>
+                        <div class="con">美味烘焙</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pic">
+                            <img src="images/index/lunbo4.jpg" alt="">
+                        </div>
+                        <div class="con">巧手布艺</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pic">
+                            <img src="images/index/lunbo5.jpg" alt="">
+                        </div>
+                        <div class="con">亲子茶艺</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="pic">
+                            <img src="images/index/lunbo6.jpg" alt="">
+                        </div>
+                        <div class="con">陶艺DIY</div>
                     </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </div>
@@ -354,6 +412,21 @@
             pagination: {
                 el: ".swiper-pagination"
             }
+        });
+        var heW = parseInt($("html").css("font-size")) / 60;
+        var fengcaiSwiper = new Swiper(".content-5 .swiper-container", {
+            slidesPerView: 2,
+            speed: 800,
+            loop: true,
+            spaceBetween: heW * 10,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            },
+            navigation: {
+                nextEl: '.content-5 .swiper-button-next',
+                prevEl: '.content-5 .swiper-button-prev',
+            },
         });
 
         $(".navs-hd ul li").click(function () {

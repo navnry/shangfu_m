@@ -39,6 +39,16 @@ ul:after {
     float: left;
     width: 2.03rem;
     height: .63rem;
+}
+.header .logo h1{
+    width: 100%;
+    height: 100%;
+}
+.header .logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: -99rem;
     background: url("../images/base/logo.png") center center /cover no-repeat;
 }
 
