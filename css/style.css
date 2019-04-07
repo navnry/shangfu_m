@@ -352,16 +352,16 @@
     background: #0081b9;
 }
 
-
-
 .content.cysg ul li .swiper-container .swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0 .03rem;
     background: rgba(255, 255, 255, .8);
     opacity: 1;
 }
+
 .content.cysg ul li .swiper-container .swiper-pagination-bullet.swiper-pagination-bullet-active {
     background: #0081b9;
 }
+
 .content.cysg ul li .con {
     padding: .2rem .15rem;
     background: #eeeeee;
@@ -377,4 +377,236 @@
     font-size: .2rem;
     color: #666666;
     line-height: .34rem;
+}
+
+.content.spzq .video-list ul li {
+    padding: .4rem 0;
+    border-bottom: 1px dashed #eeeeee;
+}
+
+.content.spzq .video-list ul li a {
+    display: block;
+    padding: .05rem;
+    box-shadow: 0 1px 18px 0 rgba(176, 176, 176, 0.3);
+}
+
+.content.spzq .video-list ul li a:after {
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.content.spzq .video-list .pic {
+    width: 3.3rem;
+    height: 2.6rem;
+    float: left;
+}
+
+.content.spzq .video-list .con {
+    float: left;
+    width: 3.7rem;
+    height: 2.6rem;
+    padding: 0 .13rem;
+}
+
+.content.spzq .video-list h6 {
+    font-size: .24rem;
+    line-height: .5rem;
+    color: #222222;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    /*padding-bottom: .19rem;*/
+}
+
+.content.spzq .video-list p {
+    font-size: .2rem;
+    color: #666666;
+    line-height: .3rem;
+}
+
+.content.spzq .video-list .top {
+    height: 50%;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.content.spzq .video-list .bottom {
+    height: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.content.spzq .video-list .bottom .issue {
+    width: .72rem;
+    height: .72rem;
+    margin-right: .1rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.content.spzq .video-list .bottom span {
+    display: block;
+    font-size: .2rem;
+    line-height: .3rem;
+    color: #222222;
+}
+
+.content.spzq .video-list .bottom b {
+    font-size: .2rem;
+    color: #0081b9;
+    font-weight: normal;
+}
+
+.content.join .simple {
+    padding: .12rem .2rem;
+    background: #efefef;
+    text-align: center;
+}
+
+.content.join .simple p {
+    font-size: .24rem;
+    color: #333333;
+    line-height: .42rem;
+}
+
+.content.join .simple .con {
+    font-size: .24rem;
+    color: #666666;
+    line-height: .42rem;
+    text-align: left;
+}
+
+.content.join .simple .con b {
+    font-weight: bold;
+    color: #222222;
+    font-size: .24rem;
+}
+
+.content.join .title {
+    display: inline-block;
+    margin: auto;
+    font-size: .3rem;
+    line-height: .3rem;
+    padding: .2rem .1rem;
+    font-weight: bold;
+    color: #333333;
+    border-bottom: .04rem solid #333333;
+}
+
+.content.shequ .elastic-box .item {
+    width: 1.23rem;
+    height: 1.23rem;
+    transform: rotate(45deg);
+}
+
+.content.shequ .title {
+    font-size: .36rem;
+}
+
+.content.shequ .elastic-box .item.blue {
+    background: #0081b9;
+}
+
+.content.shequ .elastic-box .item.gray {
+    background: #eeeeee;
+}
+
+.content.shequ .menuTab {
+    font-size: .24rem;
+    color: #333333;
+    display: block;
+    float: left;
+    line-height: .7rem;
+    padding: 0 .3rem;
+    background: #eeeeee;
+    margin-right: .05rem;
+}
+
+.content.shequ .menuTab.active {
+    background: #0081b9;
+    color: #fdfdfd;
+}
+
+.content.shequ .content-tabs {
+    height: .7rem;
+    /*line-height: .7rem;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.content.shequ .content-tabs .page-tabs-content:after {
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.content-tabs .roll-nav, .page-tabs-list {
+    position: absolute;
+    width: .7rem;
+    height: .7rem;
+    text-align: center;
+    color: #999;
+    z-index: 2;
+    top: 0;
+    border: none;
+
+}
+
+.content-tabs .roll-left {
+    left: 0;
+    border-right: solid 1px #eee
+}
+
+.content-tabs .roll-right {
+    right: 0;
+    border-left: solid 1px #eee
+}
+
+nav.page-tabs {
+    margin-right: .75rem;
+    margin-left: .75rem;
+    width: 100rem;
+    /*height: 40px;*/
+    /*overflow: hidden*/
+}
+
+nav.page-tabs:after {
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+nav.page-tabs .page-tabs-content {
+    float: left
+}
+.content.shequ .kc-tab .kc-tab-wrapper{
+    width: 100rem;
+    overflow: auto;
+}
+.content.shequ .kc-tab .kc-tab-wrapper:after{
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.content.shequ .kc-tab .kc-tab-wrapper a {
+    display: block;
+    font-size: .24rem;
+    color: #333333;
+    line-height: .7rem;
+    padding: 0 .3rem;
+    background: #eeeeee;
+    float: left;
+}
+.content.shequ .kc-tab {
+    overflow: hidden;
 }
