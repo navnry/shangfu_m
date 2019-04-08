@@ -13,6 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <title>上扶教育</title>
@@ -20,7 +21,11 @@
 </head>
 <body>
 <div class="header">
-    <div class="logo"></div>
+    <div class="logo">
+        <h1>
+            <a href="index.html">上扶教育</a>
+        </h1>
+    </div>
     <div class="tel">
         <span>课程资源服务平台领导者</span>
         <div>
@@ -77,30 +82,69 @@
     <div class="content shequ">
         <div class="container">
             <div class="title">社区发展中心</div>
-            <!--<div class="elastic-box">-->
-            <!--<div class="item blue"></div>-->
-            <!--<div class="item gray"></div>-->
-            <!--<div class="item pic"></div>-->
-            <!--</div>-->
-
+            <div class="diamond">
+                <div class="item blue" style="left: 1.2rem">
+                    <p>科学创客</p>
+                </div>
+                <div class="item eee" style="left: 2.95rem;">
+                    <p>传统文化</p>
+                </div>
+                <div class="item blue" style="left: 4.7rem">
+                    <p>社会实践</p>
+                </div>
+                <div class="item pic" style="left: .33rem">
+                    <img src="images/others/4_57.jpg" alt="">
+                </div>
+                <div class="item pic" style="left: 2.08rem; ">
+                    <img src="images/others/3_22.jpg" alt=""
+                         style=" transform: rotate(-45deg) scale(2) translate(7px, 7px);">
+                </div>
+                <div class="item pic" style="left: 3.83rem">
+                    <img src="images/others/3_22.jpg" alt="">
+                </div>
+                <div class="item pic" style="left: 5.58rem;">
+                    <img src="images/others/3_22.jpg" alt=""
+                         style=" transform: rotate(-45deg) scale(2) translate(7px, 7px);">
+                </div>
+                <div class="item eee" style="left: 1.2rem;top: 1.75rem">
+                    <p>党建活动</p>
+                </div>
+                <div class="item eee" style="left: 2.95rem;top: 1.75rem">
+                    <p>环保卫士</p>
+                </div>
+                <div class="item blue" style="left: 4.7rem;top: 1.75rem">
+                    <p>亲子手工</p>
+                </div>
+                <div class="item blue" style="left: 2.08rem;top: 2.62rem">
+                    <p>医疗急救</p>
+                </div>
+                <div class="item eee" style="left: 3.83rem;top: 2.62rem;background: #e5e5e5">
+                    <p>心理健康</p>
+                </div>
+            </div>
+            <div class="theme">
+                <b>7大主题，近30个活动课程，涵盖幼儿、学生、成人、老人。和谐社会由每一个和谐家庭、幸福社区构成，我们致力于社区文化建设，旨在为共筑社会和谐大家庭贡献我们的一份力。</b>
+                <p><i>活动包含：</i>◆ 手工艺术（陶艺、指上生花、巧手布艺、编织艺术、城市木艺、旧物改造） ◆ 美味烘焙 ◆ 玩转科学 ◆ 书法 ◆ 大家讲科普 ◆ 儿童瑜伽 ◆ 儿童专注力 ◆ 情商成长 ◆
+                    了不起的医生◆ 急救知识进社区◆ 超级系列（超级奶爸训练营 / 爷爷奶奶向前看 / 宝贝成长·亲子早教）</p>
+            </div>
+            <div class="active-swiper">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/others/3_22.jpg" alt="">
+                            <span>廉洁教育社区活动</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/others/3_22.jpg" alt="">
+                            <span>廉洁教育社区活动</span>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
             <div class="title">课程主题</div>
             <div class="kc-list">
-                <!--<div class="content-tabs">-->
-                <!--<button class="roll-nav roll-left J_tabLeft"></button>-->
-                <!--<nav class="page-tabs J_menuTabs">-->
-                <!--<div class="page-tabs-content">-->
-                <!--<a href="javascript:void (0)" class="menuTab active">亲子GOGOGO</a>-->
-                <!--<a href="javascript:void (0)" class="menuTab">化学篇少年科学院</a>-->
-                <!--<a href="javascript:void (0)" class="menuTab">传统文化非遗传承</a>-->
-                <!--<a href="javascript:void (0)" class="menuTab">心理健康</a>-->
-                <!--<a href="javascript:void (0)" class="menuTab">家庭医学科普</a>-->
-                <!--</div>-->
-                <!--</nav>-->
-                <!--<button class="roll-nav roll-right J_tabRight"></button>-->
-                <!--</div>-->
-                <div class="kc-box">
-
-                </div>
                 <div class="kc-tab">
                     <a href="javascript:void (0)"></a>
                     <div class="kc-tab-wrapper">
@@ -111,6 +155,9 @@
                         <a href="javascript:void (0)">家庭医学科普</a>
                     </div>
                     <a href="javascript:void (0)"></a>
+                </div>
+                <div class="kc-box">
+
                 </div>
             </div>
         </div>
@@ -152,25 +199,26 @@
 </div>
 </body>
 </html>
-<script src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <script src="js/common.js"></script>
-<!--<script src="js/my-tabs.js"></script>-->
-<!--<script>-->
-<!--var TabMenu = $('.content-tabs').menuTab({-->
-<!--'content_tab': '.content-tabs',-->
-<!--'nav_tab': '.page-tabs',-->
-<!--'tab_list': '.page-tabs-content'-->
-<!--});-->
-<!--$('.J_tabRight').on('click', function () {-->
-<!--TabMenu.nextTab();-->
-<!--})-->
-<!--$('.J_tabLeft').on('click', function () {-->
-<!--TabMenu.prevTab();-->
-<!--})-->
-<!--$('.menuTab').on('click', function () {-->
-<!--$('.menuTab.active').removeClass('active');-->
-<!--$(this).addClass('active');-->
-<!--TabMenu.goTab($(this));-->
+<script src="js/swiper.min.js"></script>
+<script>
+    $(function () {
+        var heW = parseInt($("html").css("font-size")) / 60;
+        var activeSwiper = new Swiper(".active-swiper .swiper-container", {
+            slidesPerView: 2,
+            speed: 800,
+            loop: true,
+            spaceBetween: heW * 10,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            },
+            navigation: {
+                nextEl: '.active-swiper .swiper-button-next',
+                prevEl: '.active-swiper .swiper-button-prev',
+            },
 
-<!--})-->
-<!--</script>-->
+        })
+    })
+</script>

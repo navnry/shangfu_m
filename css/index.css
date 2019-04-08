@@ -451,10 +451,10 @@
 
 .content-5 .swiper-button-prev {
     left: .06rem;
-    background: url("../images/index/btn_l.png") center center /cover no-repeat;
+    background: url("../images/base/swiper_l.png") center center /cover no-repeat;
 }
 
 .content-5 .swiper-button-next {
     right: .06rem;
-    background: url("../images/index/btn_r.png") center center /cover no-repeat;
+    background: url("../images/base/swiper_r.png") center center /cover no-repeat;
 }

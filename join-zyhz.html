@@ -13,6 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <title>上扶教育</title>
@@ -91,6 +92,44 @@
             <div class="simple">
                 <p>上扶（长沙）教育咨询有限公司，是目前省内品质最优、规模最大、种类最全的课程资源中心之一是湖南省教师教育学会义务教育新课程教师实践基地和学生实践基地。</p>
             </div>
+            <div class="huzhu">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/others/huzhu1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="images/others/huzhu2.png" alt=""></div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="tips">
+                <p>人生百年，立于幼学。我们秉持教育的初心和责任感 ，力求把孩子的精神世界变成有多方面兴趣、要求和愿望的多彩世界
+                    。如果您也致力于课后课程服务，或是您有其他适合于孩子们学习的课后资源项目，欢迎联系我们洽谈合作！我们拥有湖南最丰富的校区资源，也有对教育事业最诚挚的服务热情，就等你来！</p>
+            </div>
+            <div class="title">联系我们</div>
+            <div class="lx-nav">
+                <ul>
+                    <li>
+                        <i><img src="images/base/icon_location.png" alt=""></i>
+                        <span>长沙市开福区军民融合产业园</span>
+                    </li>
+                    <li>
+                        <i><img src="images/base/icon_tel.png" alt=""></i>
+                        <span>19976959797</span>
+                    </li>
+                    <li>
+                        <i><img src="images/base/icon_wechat.png" alt=""></i>
+                        <span>19976959797</span>
+                    </li>
+                    <li>
+                        <i><img src="images/base/icon_email.png" alt=""></i>
+                        <span>531979559@qq.com</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="map">
+                <div id="map" class="brand_map"></div>
+            </div>
         </div>
     </div>
 </div>
@@ -132,3 +171,26 @@
 </html>
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/common.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/map.js"></script>
+<script>
+    $(function () {
+        var heW = parseInt($("html").css("font-size")) / 60;
+        var mySwiper = new Swiper(".huzhu .swiper-container", {
+            slidesPerView: 2,
+            speed: 800,
+            loop: true,
+            spaceBetween: heW * 10,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            },
+            navigation: {
+                nextEl: '.huzhu .swiper-button-next',
+                prevEl: '.huzhu .swiper-button-prev',
+            },
+        })
+
+        window.onload = map_load;
+    })
+</script>
