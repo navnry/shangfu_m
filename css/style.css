@@ -48,6 +48,83 @@
     background: url("../images/base/right_h.png") center center /cover no-repeat;
 }
 
+.breadCrumb {
+    width: 100%;
+    padding: .1rem .2rem;
+    background: rgba(238, 238, 238, .8);
+}
+
+.breadCrumb .active-txt {
+    font-size: .2rem;
+    color: #999999;
+    line-height: .36rem;
+}
+
+.breadCrumb .crumb a {
+    font-size: .2rem;
+    color: #666666;
+    line-height: .36rem;
+}
+
+.breadCrumb .crumb a:last-child {
+    color: #0081b9;
+}
+
+/*.fanye-s a {*/
+/*display: block;*/
+/*vertical-align: middle;*/
+/*font-size: .24rem;*/
+/*color: #333333;*/
+/*!*line-height: .53rem;*!*/
+/*}*/
+.fanye-s {
+    margin: .2rem 0;
+}
+
+.fanye-s a {
+    display: block;
+    vertical-align: middle;
+    font-size: .24rem;
+    padding: .1rem .2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.fanye-s a:hover span {
+    color: #0081b9;
+}
+
+.fanye-s a:first-child:hover i {
+    background: url("../images/base/left_h.png") center center/cover no-repeat;
+}
+
+.fanye-s a:last-child:hover i {
+    background: url("../images/base/right_h.png") center center/cover no-repeat;
+}
+
+.fanye-s i {
+    display: inline-block;
+    width: .53rem;
+    height: .53rem;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.fanye-s a:first-child i {
+    background: url("../images/base/left_n.png") center center/cover no-repeat;
+}
+
+.fanye-s a:last-child i {
+    background: url("../images/base/right_n.png") center center/cover no-repeat;
+}
+
+.fanye-s span {
+    font-size: .24rem;
+    color: #333333;
+    padding-left: .34rem;
+}
+
 .column-nav {
     text-align: center;
     padding: .3rem 0;
@@ -574,12 +651,16 @@
     height: 2.7rem;
 }
 
+.content.join .lx-nav ul {
+    width: 7.38rem;
+}
+
 .content.join .lx-nav ul li {
     background: #f5f5f5;
     border-radius: .16rem;
     display: inline-block;
-    margin-right: .25rem;
-    margin-bottom: .25rem;
+    margin-right: .28rem;
+    margin-bottom: .28rem;
 }
 
 .content.join .lx-nav ul li i {
@@ -605,6 +686,13 @@
     line-height: .8rem;
     float: left;
     padding: 0 .2rem;
+}
+
+.content.join .lx-nav ul li span a {
+    display: block;
+    font-size: .22rem;
+    color: #333333;
+    line-height: .8rem;
 }
 
 .content.join .swiper-slide img {
@@ -689,7 +777,7 @@
 }
 
 .content.shequ .diamond .item.pic img {
-    transform: scale(3);
+    transform: scale(1.6) rotate(-45deg);
 }
 
 .content.shequ .menuTab {
@@ -714,6 +802,7 @@
     position: relative;
     overflow: hidden;
 }
+
 .content.join .swiper-container .swiper-button-next,
 .content.join .swiper-container .swiper-button-prev,
 .content.shequ .swiper-container .swiper-button-next,
@@ -722,11 +811,13 @@
     height: .62rem;
     outline: none;
 }
+
 .content.join .swiper-container .swiper-button-prev,
 .content.shequ .swiper-container .swiper-button-prev {
     background: url("../images/base/swiper_l.png") center center /cover no-repeat;
     left: 0;
 }
+
 .content.join .swiper-container .swiper-button-next,
 .content.shequ .swiper-container .swiper-button-next {
     background: url("../images/base/swiper_r.png") center center /cover no-repeat;
@@ -828,9 +919,12 @@ nav.page-tabs .page-tabs-content {
 }
 
 .content.shequ .active-swiper {
-    padding: .6rem 0;
+    padding: .6rem .2rem;
     margin: .6rem 0;
     background: #f6f6f6;
+    position: relative;
+    width: 7.5rem;
+    left: -.2rem;
 }
 
 .content.shequ .active-swiper .swiper-container {
@@ -854,6 +948,130 @@ nav.page-tabs .page-tabs-content {
     text-align: center;
     line-height: .7rem;
     bottom: 0;
+}
+
+.content.shequ .container {
+    padding-bottom: .5rem;
+}
+
+.content.shequ .kc-nav {
+    position: relative;
+}
+
+.content.shequ .kc-nav .swiper-container {
+    width: 5.6rem;
+    margin: auto;
+}
+
+.content.shequ .kc-nav .swiper-button-prev,
+.content.shequ .kc-nav .swiper-button-next {
+    width: .7rem;
+    height: .7rem;
+    margin: 0;
+    top: 0;
+    opacity: 1;
+    outline: none;
+}
+
+.content.shequ .kc-nav .swiper-button-prev {
+    background: url("../images/base/l0.jpg") center center /cover no-repeat;
+    left: 0;
+}
+
+.content.shequ .kc-nav .swiper-button-prev:hover {
+    background: url("../images/base/l1.jpg") center center /cover no-repeat;
+}
+
+.content.shequ .kc-nav .swiper-button-next {
+    background: url("../images/base/r0.jpg") center center /cover no-repeat;
+    right: 0;
+}
+
+.content.shequ .kc-nav .swiper-button-next:hover {
+    background: url("../images/base/r1.jpg") center center /cover no-repeat;
+}
+
+.content.shequ .kc-nav .swiper-slide {
+    font-size: .24rem;
+    color: #333333;
+    line-height: .7rem;
+    width: auto;
+    padding: 0 .14rem;
+    background: #eeeeee;
+}
+
+.content.shequ .kc-nav .swiper-slide.swiper-slide-thumb-active {
+    background: #0081b9;
+    color: #ffffff;
+}
+
+
+.content.shequ .kc-box {
+    margin: .3rem 0;
+}
+
+.content.shequ .kc-box .swiper-slide {
+
+}
+
+.content.shequ .kc-box .swiper-slide .m-title {
+    font-size: .24rem;
+    color: #0081b9;
+    line-height: .5rem;
+    background: #e5e5e5;
+    text-align: center;
+}
+
+.content.shequ .kc-box .swiper-slide .m-desc {
+    background: #f6f6f6;
+    font-size: .2rem;
+    color: #0081b9;
+    line-height: .36rem;
+    padding: .1rem .15rem;
+}
+
+.content.shequ .kc-box .swiper-slide table {
+    width: 100%;
+    /*border-color: #f4f4f4;*/
+    text-align: center;
+    border: 1px solid #F4F4F4;
+}
+
+.content.shequ .kc-box .swiper-slide table thead {
+    height: .5rem;
+    background: #0081b9;
+}
+
+.content.shequ .kc-box .swiper-slide table thead th {
+    font-size: .3rem;
+    color: #ffffff;
+}
+
+.content.shequ .kc-box .swiper-slide table tbody {
+    background: #ffffff;
+}
+
+.content.shequ .kc-box .swiper-slide table tbody td {
+    line-height: .42rem;
+    color: #333333;
+    font-size: .24rem;
+}
+
+.content.shequ .kc-box .swiper-slide table tbody td i {
+    font-size: .18rem;
+    color: #999999;
+    display: block;
+}
+
+.content.shequ .kc-box .swiper-slide table tfoot {
+    background: #ffffff;
+}
+
+.content.shequ .kc-box .swiper-slide table tfoot th {
+    line-height: .42rem;
+    color: #666666;
+    font-size: .24rem;
+    font-weight: normal;
 }
 
 .content.news .container {
@@ -960,3 +1178,36 @@ nav.page-tabs .page-tabs-content {
     color: #0081b9;
 }
 
+.content.news-detail .title {
+    font-size: .34rem;
+    color: #222222;
+    font-weight: bold;
+    padding: .6rem 0 0 0;
+    margin-bottom: .3rem;
+}
+
+.content.news-detail .time {
+    font-size: .18rem;
+    color: #666666;
+    text-align: center;
+}
+
+.content.news-detail .con {
+    padding: .4rem 0;
+    border-bottom: dashed 1px #dcdcdc;
+}
+
+.content.news-detail .con img {
+    padding: .4rem 0;
+}
+
+.content.news-detail .con p {
+    font-size: .24rem;
+    color: #666666;
+    line-height: .42rem;
+    text-indent: .48rem;
+}
+
+.content.news-detail .container {
+    padding-bottom: .2rem;
+}
