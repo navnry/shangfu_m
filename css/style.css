@@ -70,13 +70,6 @@
     color: #0081b9;
 }
 
-/*.fanye-s a {*/
-/*display: block;*/
-/*vertical-align: middle;*/
-/*font-size: .24rem;*/
-/*color: #333333;*/
-/*!*line-height: .53rem;*!*/
-/*}*/
 .fanye-s {
     margin: .2rem 0;
 }
@@ -188,6 +181,7 @@
     background: url("../images/base/juzhou_02.jpg") no-repeat;
     background-size: 100% auto;
     background-position: bottom;
+    overflow: hidden;
 }
 
 /**/
@@ -491,6 +485,35 @@
     font-size: .2rem;
     color: #666666;
     line-height: .34rem;
+}
+
+.content.spzq .title {
+    font-size: .3rem;
+    color: #666666;
+}
+
+.content.spzq .video-none .none-img {
+    width: 2.52rem;
+    height: 1.97rem;
+    margin: auto;
+    background: url("../images/base/video-none.png") center center /cover no-repeat;
+}
+
+.content.spzq .video-none .desc {
+    text-align: center;
+    padding-top: .4rem;
+    padding-bottom: 1.3rem;
+}
+
+.content.spzq .video-none .desc span {
+    font-size: .3rem;
+    color: #666666;
+    display: block;
+}
+
+.content.spzq .video-none .desc i {
+    font-size: .2rem;
+    color: #999999;
 }
 
 .content.spzq .video-list ul li {
