@@ -229,16 +229,16 @@
 
 .content.qyjs-swiper .swiper-button-next,
 .content.qyjs-swiper .swiper-button-prev {
-    width: .4rem;
-    height: .4rem;
-    bottom: .6rem;
+    width: .8rem;
+    height: .8rem;
+    bottom: .4rem;
     top: auto;
     margin-top: 0;
     outline: none;
 }
 
 .content.qyjs-swiper .swiper-button-next {
-    right: 3.25rem;
+    right: 2.85rem;
     background: url("../images/others/r0.jpg") center center /cover no-repeat;
 }
 
@@ -247,7 +247,7 @@
 }
 
 .content.qyjs-swiper .swiper-button-prev {
-    left: 3.25rem;
+    left: 2.85rem;
     background: url("../images/others/l0.jpg") center center /cover no-repeat;
 }
 
@@ -260,7 +260,7 @@
 }
 
 .content.hezuo .hezuo-wrapper {
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding-bottom: .56rem;
 }
 
@@ -277,7 +277,10 @@
     margin-right: .24rem;
     margin-bottom: .24rem;
 }
-
+.content.hezuo ul li img{
+    width: 100%;
+    height: 100%;
+}
 .content .title {
     text-align: center;
     font-size: .44rem;
@@ -539,8 +542,21 @@
     width: 3.3rem;
     height: 2.6rem;
     float: left;
+    position: relative;
 }
-
+.content.spzq .video-list .pic:before{
+    content: '';
+    display: block;
+    width: .9rem;
+    height: .9rem;
+    background: url("../images/base/play.png") center center /cover no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
 .content.spzq .video-list .con {
     float: left;
     width: 3.7rem;
