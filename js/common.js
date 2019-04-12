@@ -8,7 +8,7 @@ $(".nav > ul > li").click(function (e) {
     e.stopPropagation()
 });
 $(".nav").on("touchmove", function (e) {
-    $(this).removeClass("on")
+    // $(this).removeClass("on")
     e.stopPropagation()
 });
 $(".nav>ul").on("touchmove", function (e) {
